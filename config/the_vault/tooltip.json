@@ -802,7 +802,7 @@
       "value": "Used to define the Vault theme of a Vault\nObtained through a Completion Crate"
     },
     {
-      "item": "the_vault:blank_seal",
+      "item": "the_vault:crystal_seal_empty",
       "value": "Crafting base\nUsed to Craft Seals that define the Vault Objective"
     },
     {
@@ -810,7 +810,7 @@
       "value": "Apply with a Vault Crystal in an anvil to set the Vault Objective"
     },
     {
-      "item": "the_vault:crystal_seal_scavenger",
+      "item": "the_vault:crystal_seal_hunter",
       "value": "Apply with a Vault Crystal in an anvil to set the Vault Objective"
     },
     {
@@ -830,7 +830,7 @@
       "value": "Apply with a Vault Crystal in an anvil to set the Vault Objective"
     },
     {
-      "item": "the_vault:crystal_seal_ancient",
+      "item": "the_vault:crystal_seal_ancients",
       "value": "Not Yet Implemented"
     },
     {
@@ -1098,8 +1098,204 @@
       "value": "Rarely found in Dungeons\nCan add an Enhancement to a Helmet"
     },
     {
-      "item": "the_vault:enhancement_altar",
-      "value": "Rarely found in Dungeons\nAdds an Enhancement to a Helmet"
+      "item": "the_vault:mvp_crown",
+      "value": "This is an Unused Item!"
+    },
+    {
+      "item": "the_vault:mvp_crown",
+      "value": "This is an Unused Item!"
+    },
+    {
+      "item": "the_vault:vault_bedrock",
+      "value": "Vault Version of Bedrock"
+    },
+    {
+      "item": "the_vault:relic_pedestal",
+      "value": "Used to Create Completed Relic Pedestals using Relic fragments"
+    },
+    {
+      "item": "the_vault:loot_statue",
+      "value": "This is a Legacy Item, it is no longer used"
+    },
+    {
+      "item": "the_vault:shop_pedestal",
+      "value": "Shop pedestals can be found In a Vendor Room selling items for Vault Bronze"
+    },
+    {
+      "item": "the_vault:trophy_statue",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:xp_altar",
+      "value": "This is a God altar which you can find in Vaults"
+    },
+    {
+      "item": "the_vault:blood_altar",
+      "value": "This is a God altar which you can find in Vaults"
+    },
+    {
+      "item": "the_vault:time_altar",
+      "value": "This is a God altar which you can find in Vaults"
+    },
+    {
+      "item": "the_vault:soul_altar",
+      "value": "This is a God altar which you can find in Vaults"
+    },
+    {
+      "item": "the_vault:hourglass",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:scavenger_chest",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:scavenger_altar",
+      "value": "Objective Block for Scavenger Vaults"
+    },
+    {
+      "item": "the_vault:scavenger_treasure",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:stabilizer",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:catalyst_infusion_table",
+      "value": "Used to Infuse Vault Catalysts"
+    },
+    {
+      "item": "the_vault:etching_vendor_controller",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:vault_charm_controller",
+      "value": "Used to Whitelist items to be voided using the Junk Identifier"
+    },
+    {
+      "item": "the_vault:raid_controller",
+      "value": "This is a Deprecated item from Vault Hunters 2nd Edition"
+    },
+    {
+      "item": "the_vault:placeholder",
+      "value": "This is a Debug Item!"
+    },
+    {
+      "item": "the_vault:treasure_door",
+      "value": "opens the way to a Treasure room\nusing the corresponding key"
+    },
+    {
+      "item": "the_vault:treasure_door",
+      "value": "opens the way to a Treasure room\nusing the corresponding key"
+    },
+    {
+      "item": "the_vault:tool_vise",
+      "value": "This is a Legacy Item, it is no longer used"
+    },
+    {
+      "item": "the_vault:magnet_modification_table",
+      "value": "This is a Legacy Item, it is no longer used"
+    },
+    {
+      "item": "the_vault:demagnetizer",
+      "value": "Disables a Vault Magnet in a 32 Block radius"
+    },
+    {
+      "item": "the_vault:treasure_sand",
+      "value": "Found in a Treasure room"
+    },
+    {
+      "item": "the_vault:vault_forge",
+      "value": "Used to Create Vault Gear and Trinkets"
+    },
+    {
+      "item": "the_vault:tool_station",
+      "value": "Used to Create Jewels and Vault Tools"
+    },
+    {
+      "item": "the_vault:vault_artisan_station",
+      "value": "Used to modify Vault Gear"
+    },
+    {
+      "item": "the_vault:vault_recycler",
+      "value": "Used to burn down Vault Craftables into their smaller components"
+    },
+    {
+      "item": "the_vault:vault_diffuser",
+      "value": "Used to diffuse items that have a Soul Value"
+    },
+    {
+      "item": "the_vault:modifier_workbench",
+      "value": "Used to Craft modifiers on Vault Gear"
+    },
+    {
+      "item": "the_vault:modifier_discovery",
+      "value": "Discovers locked modifiers for the Modifier Workbench\nSpawns rarely in Dungeons at level 60+"
+    },
+    {
+      "item": "the_vault:elite_spawner",
+      "value": "This is a Debug Item!"
+    },
+    {
+      "item": "the_vault:wild_spawner",
+      "value": "This is a Debug Item!"
+    },
+    {
+      "item": "the_vault:custom_entity_spawner",
+      "value": "This is a Debug Item!"
+    },
+    {
+      "item": "the_vault:spirit_extractor",
+      "value": "allows for a Spirit to be revived"
+    },
+    {
+      "item": "the_vault:wardrobe",
+      "value": "allows a Player to switch between Sets of items."
+    },
+    {
+      "item": "the_vault:wardrobe",
+      "value": "allows a Player to switch between Sets of items."
+    },
+    {
+      "item": "the_vault:magic_silk_block",
+      "value": "Crafting Ingredient"
+    },
+    {
+      "item": "the_vault:magic_silk_block",
+      "value": "Crafting Ingredient"
+    },
+    {
+      "item": "the_vault:golden_tooth",
+      "value": "This is an Unused Item!"
+    },
+    {
+      "item": "the_vault:black_market",
+      "value": "Allows you to exchange Soul shards for randomized Goods"
+    },
+    {
+      "item": "the_vault:bounty_table",
+      "value": "Allows you to Complete bounties to recieve small rewards"
+    },
+    {
+      "item": "the_vault:bounty_table",
+      "value": "Allows you to choose small tasks for rewards"
+    },
+    {
+      "item": "the_vault:crystal_budding",
+      "value": "grows Raw Vault Crystals"
+    },
+    {
+      "item": "the_vault:vault_anvil",
+      "value": "Unbreakable version of an Anvil"
+    },
+    {
+      "item": "the_vault:vault_anvil",
+      "value": "Unbreakable version of an Anvil"
+    },
+    {
+      "item": "the_vault:eternal_pedestal",
+      "value": "Houses and allows you to Interact with an Eternal"
     }
   ]
 }
