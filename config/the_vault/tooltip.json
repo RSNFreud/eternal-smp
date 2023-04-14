@@ -58,7 +58,7 @@
     },
     {
       "item": "the_vault:gem_alexandrite",
-      "value": "An uncommon vault gem"
+      "value": "A rare vault gem"
     },
     {
       "item": "the_vault:gem_benitoite",
@@ -387,7 +387,7 @@
     },
     {
       "item": "the_vault:perfect_alexandrite",
-      "value": "An Uncommon perfect vault gem"
+      "value": "A rare perfect vault gem"
     },
     {
       "item": "the_vault:perfect_painite",
@@ -407,7 +407,7 @@
     },
     {
       "item": "the_vault:perfect_echo_gem",
-      "value": "An epic perfect vault gem"
+      "value": "A legendary perfect vault gem"
     },
     {
       "item": "the_vault:perfect_wutodie",
@@ -1292,6 +1292,42 @@
     {
       "item": "the_vault:vault_scrap",
       "value": "Crafting Ingredient"
+    },
+    {
+      "item": "the_vault:vault_scrap",
+      "value": "Crafting Ingredient"
+    },
+    {
+      "item": "the_vault:extraordinary_larimar",
+      "value": "A common Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_benitoite",
+      "value": "An uncommon Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_wutodie",
+      "value": "An uncommon Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_painite",
+      "value": "A rare Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_alexandrite",
+      "value": "A rare Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_black_opal",
+      "value": "A very rare Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_black_opal",
+      "value": "A very rare Extraordinary vault gem"
+    },
+    {
+      "item": "the_vault:extraordinary_black_opal",
+      "value": "A legendary Extraordinary vault gem"
     }
   ]
 }
