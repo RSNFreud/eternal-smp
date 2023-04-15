@@ -620,7 +620,6 @@ craftingTable.remove(<item:thermal:fluid_cell_frame>);
 craftingTable.remove(<item:thermal:fluid_cell>);
 craftingTable.remove(<item:thermal:wrench>);
 craftingTable.remove(<item:thermal:redprint>);
-craftingTable.remove(<item:thermal:xp_crystal>);
 craftingTable.remove(<item:thermal:rf_potato>);
 craftingTable.remove(<item:thermal:dynamo_magmatic>);
 craftingTable.remove(<item:thermal:dynamo_numismatic>);
