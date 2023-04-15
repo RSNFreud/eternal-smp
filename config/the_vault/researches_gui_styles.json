@@ -80,7 +80,7 @@
     },
     "Mekanism": {
       "x": 250,
-      "y": 120,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mekanism"
     },
@@ -91,7 +91,7 @@
       "icon": "the_vault:gui/researches/thermal_expansion"
     },
     "Create": {
-      "x": 250,
+      "x": 300,
       "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/create"
@@ -134,25 +134,25 @@
     },
     "Building Gadgets": {
       "x": 10,
-      "y": 285,
+      "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/building_gadgets"
     },
     "Weirding Gadgets": {
       "x": 60,
-      "y": 285,
+      "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/weirding_gadgets"
     },
     "Mining Gadgets": {
       "x": 110,
-      "y": 285,
+      "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mining_gadgets"
     },
     "Digital Miner": {
       "x": 60,
-      "y": 325,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/digital_miner"
     },
