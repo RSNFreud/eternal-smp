@@ -7,8 +7,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -24,7 +24,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -41,7 +41,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -75,7 +75,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -98,8 +98,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -162,8 +162,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -225,7 +225,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -259,7 +259,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -282,7 +282,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -299,7 +299,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -316,7 +316,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -356,7 +356,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -379,7 +379,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -402,7 +402,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -425,7 +425,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -442,7 +442,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -459,7 +459,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -482,7 +482,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -539,7 +539,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": true,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": true
@@ -562,7 +562,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -585,7 +585,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -608,7 +608,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -625,7 +625,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -1011,21 +1011,21 @@
         "sophisticatedbackpacks:backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_1": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:pickup_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
@@ -1041,21 +1041,21 @@
         "sophisticatedbackpacks:iron_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:refill_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_2": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
@@ -1071,42 +1071,42 @@
         "sophisticatedbackpacks:gold_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:deposit_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:restock_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:filter_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_pickup_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_3": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
@@ -1122,49 +1122,49 @@
         "sophisticatedbackpacks:diamond_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_deposit_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_restock_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_filter_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_4": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_refill_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
@@ -1180,28 +1180,28 @@
         "sophisticatedbackpacks:netherite_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_feeding_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:feeding_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
         "sophisticatedbackpacks:advanced_void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
