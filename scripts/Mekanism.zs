@@ -145,6 +145,12 @@ craftingTable.addShaped("mekanism_upgrade_gas", <item:mekanism:upgrade_gas> *2, 
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("mekanism_upgrade_anchor", <item:mekanism:upgrade_anchor>, [
+    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
+    [<item:mekanism:alloy_infused>, <item:weirdinggadget:weirding_gadget>, <item:mekanism:alloy_infused>],
+    [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
+]);
+
 craftingTable.addShaped("mekanism_energy_tablet", <item:mekanism:energy_tablet>, [
     [<item:minecraft:redstone_block>, <tag:items:forge:storage_blocks/gold>, <item:minecraft:redstone_block>],
     [<item:mekanism:alloy_infused>, <tag:items:forge:storage_blocks/gold>, <item:mekanism:alloy_infused>],
