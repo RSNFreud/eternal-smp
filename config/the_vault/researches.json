@@ -36,7 +36,7 @@
     },
     {
       "modIds": [
-        "computercraft"
+        "computercraft", "advancedperipherals"
       ],
       "restrictions": {
         "restricts": {
@@ -397,7 +397,7 @@
     },
     {
       "modIds": [
-        "easy_villagers"
+        "easy_villagers",  "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -409,7 +409,7 @@
         }
       },
       "name": "Easy Villagers",
-      "cost": 2,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/villager/helmet",
@@ -417,23 +417,6 @@
         "the_vault:gear/armor/villager/leggings",
         "the_vault:gear/armor/villager/boots"
       ]
-    },
-    {
-      "modIds": [
-        "easy_piglins"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Easy Piglins",
-      "cost": 2,
-      "usesKnowledge": true
     },
     {
       "modIds": [
@@ -640,6 +623,23 @@
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
       ]
+    },
+    {
+      "modIds": [
+        "industrialforegoing"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Industrial Foregoing",
+      "cost": 18,
+      "usesKnowledge": true
     }
   ],
   "CUSTOM_RESEARCHES": [

@@ -72,6 +72,12 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/botania"
     },
+    "Industrial Foregoing": {
+      "x": 200,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/industrial_foregoing"
+    },
     "Mekanism": {
       "x": 250,
       "y": 120,
@@ -156,12 +162,6 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/easy_villagers"
     },
-    "Easy Piglins": {
-      "x": 250,
-      "y": 240,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/easy_piglins"
-    },
     "Botany Pots": {
       "x": 300,
       "y": 240,
@@ -176,7 +176,7 @@
     },
     "Cagerium": {
       "x": 250,
-      "y": 280,
+      "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/cagerium"
     },
@@ -188,13 +188,13 @@
     },
     "Phytogenic Insulator": {
       "x": 250,
-      "y": 320,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/phytogenic_insulator"
     },
     "Automatic Genius": {
       "x": 60,
-      "y": 160,
+      "y": 200,
       "frameType": "STAR",
       "icon": "the_vault:gui/researches/automatic_genius"
     },
@@ -206,7 +206,7 @@
     },
     "ComputerCraft": {
       "x": 60,
-      "y": 200,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/rftools_storage"
     },
