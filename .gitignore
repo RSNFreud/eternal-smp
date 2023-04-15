@@ -1,3 +1,14 @@
 crash-reports
 logs
 minecraftinstance.json
+reauth.toml
+lightspeed-cache
+resourcepacks
+XaeroWaypoints
+XaeroWorldMap
+saves
+data
+playerSnapshots
+options.txt
+usercache.json
+usernamecache.json
