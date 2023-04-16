@@ -7,8 +7,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -24,8 +24,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -36,13 +36,13 @@
     },
     {
       "modIds": [
-        "computercraft"
+        "computercraft", "advancedperipherals"
       ],
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -75,8 +75,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -98,8 +98,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -123,7 +123,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": true,
-          "USABILITY": false,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -162,8 +162,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -225,8 +225,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -242,8 +242,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -259,8 +259,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -282,8 +282,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -299,8 +299,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -316,8 +316,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -356,8 +356,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -379,8 +379,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -397,19 +397,19 @@
     },
     {
       "modIds": [
-        "easy_villagers"
+        "easy_villagers",  "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
       },
       "name": "Easy Villagers",
-      "cost": 2,
+      "cost": 4,
       "usesKnowledge": true,
       "discoversModels": [
         "the_vault:gear/armor/villager/helmet",
@@ -420,30 +420,13 @@
     },
     {
       "modIds": [
-        "easy_piglins"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Easy Piglins",
-      "cost": 2,
-      "usesKnowledge": true
-    },
-    {
-      "modIds": [
         "darkutils"
       ],
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -459,8 +442,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -482,8 +465,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -500,7 +483,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": true,
-          "USABILITY": false,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -517,7 +500,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": true,
-          "USABILITY": false,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -539,8 +522,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": true,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": true
         }
@@ -562,8 +545,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -585,8 +568,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -608,8 +591,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -625,8 +608,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -640,6 +623,23 @@
         "the_vault:gear/armor/meka_dark/leggings",
         "the_vault:gear/armor/meka_dark/boots"
       ]
+    },
+    {
+      "modIds": [
+        "industrialforegoing"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Industrial Foregoing",
+      "cost": 18,
+      "usesKnowledge": true
     }
   ],
   "CUSTOM_RESEARCHES": [
@@ -1011,7 +1011,7 @@
         "sophisticatedbackpacks:backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
@@ -1041,7 +1041,7 @@
         "sophisticatedbackpacks:iron_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
@@ -1055,7 +1055,7 @@
         "sophisticatedbackpacks:stack_upgrade_tier_2": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         }
@@ -1071,7 +1071,7 @@
         "sophisticatedbackpacks:gold_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
@@ -1122,7 +1122,7 @@
         "sophisticatedbackpacks:diamond_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },
@@ -1180,7 +1180,7 @@
         "sophisticatedbackpacks:netherite_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": false,
+            "USABILITY": true,
             "CRAFTABILITY": true
           }
         },

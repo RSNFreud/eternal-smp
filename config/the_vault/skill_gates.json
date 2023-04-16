@@ -188,7 +188,6 @@
           "Botania",
           "Mekanism",
           "Easy Villagers",
-          "Easy Piglins",
           "Dark Utilities",
           "Create",
           "SNAD",
@@ -211,7 +210,8 @@
           "Backpacks",
           "Gauges & Switches",
           "Big Backpacks",
-          "ComputerCraft"
+          "ComputerCraft",
+          "Industrial Foregoing"
         ],
         "ignoreArrow": true
       },
