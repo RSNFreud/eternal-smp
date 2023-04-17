@@ -208,7 +208,7 @@
       "x": 60,
       "y": 160,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/rftools_storage"
+      "icon": "the_vault:gui/researches/computercraft"
     },
     "Flux Networks": {
       "x": 490,
