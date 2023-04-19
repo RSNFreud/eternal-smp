@@ -208,7 +208,7 @@
           "ENTITY_INTERACTABILITY": false
         }
       },
-      "name": "Applied Energistics",
+      "name": "Applied Energistics 2",
       "cost": 6,
       "usesKnowledge": true,
       "discoversModels": [
