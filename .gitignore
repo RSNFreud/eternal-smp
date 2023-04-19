@@ -4,12 +4,12 @@ minecraftinstance.json
 reauth.toml
 lightspeed-cache
 resourcepacks
-XaeroWaypoints
-XaeroWorldMap
+Xaero*
 saves
-data
+/data/
 playerSnapshots
 options.txt
 usercache.json
 usernamecache.json
 backups
+serverPack*
