@@ -56,7 +56,7 @@
       {"value": {"id": "refinedstorage:external_storage", "amountMin": 1, "amountMax": 1}, "weight": 20},
       {"value": {"id": "refinedstorage:controller", "amountMin": 1, "amountMax": 1}, "weight": 2}
     ],
-    "Applied Energistics 2": [
+    "Applied Energistics": [
       {"value": {"id": "ae2:drive", "amountMin": 1, "amountMax": 1}, "weight": 8},
       {"value": {"id": "ae2:item_storage_cell_1k", "amountMin": 1, "amountMax": 1}, "weight": 100},
       {"value": {"id": "ae2:item_storage_cell_4k", "amountMin": 1, "amountMax": 1}, "weight": 25},
