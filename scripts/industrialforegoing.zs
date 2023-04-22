@@ -14,9 +14,9 @@ craftingTable.addShaped("industrialforegoing_latex_processing_unit", <item:indus
 ]);
 
 craftingTable.addShaped("industrialforegoing_dissolution_chamber", <item:industrialforegoing:dissolution_chamber>, [
-    [<item:industrialforegoing:plastic>, <item:the_vault:black_chromatic_steel_block>, <item:industrialforegoing:plastic>],
+    [<item:industrialforegoing:plastic>, <item:the_vault:chromatic_steel_block>, <item:industrialforegoing:plastic>],
     [<item:the_vault:void_liquid_bucket>, <item:industrialforegoing:machine_frame_pity>, <item:the_vault:void_liquid_bucket>],
-    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:omega_pog>, <item:the_vault:black_chromatic_steel_ingot>]
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("industrialforegoing_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
@@ -37,6 +37,13 @@ craftingTable.addShaped("industrialforegoing_material_sw_factory", <item:industr
     [<item:the_vault:chromatic_iron_block>, <item:industrialforegoing:machine_frame_advanced>, <item:the_vault:chromatic_iron_block>]
 ]);
 
+craftingTable.addShaped("industrialforegoing_dry_rubber", <item:industrialforegoing:dryrubber>, [
+    [<item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>],
+    [<item:industrialforegoing:tinydryrubber>, <item:the_vault:perfect_larimar>, <item:industrialforegoing:tinydryrubber>],
+    [<item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>]
+]);
+
+
 
 /* yeet:
 iron gear
@@ -44,4 +51,9 @@ gold gear
 diamond gear
 add IFGENS to seperate research
 mob_dupicator
+enchantment stuff
+
+blacklist in vaults
+fluid placer
+stasis chamber
 */
