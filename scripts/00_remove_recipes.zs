@@ -702,6 +702,32 @@ craftingTable.remove(<item:mininggadgets:upgrade_battery_2>);
 craftingTable.remove(<item:mininggadgets:upgrade_battery_3>);
 craftingTable.remove(<item:mininggadgets:upgrade_silk>);
 
+// Industrial Foregoing
+craftingTable.remove(<item:industrialforegoing:fluid_extractor>);
+craftingTable.remove(<item:industrialforegoing:latex_processing_unit>);
+craftingTable.remove(<item:industrialforegoing:dissolution_chamber>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_pity>);
+craftingTable.remove(<item:industrialforegoing:pitiful_generator>);
+craftingTable.remove(<item:industrialforegoing:fluid_extractor>);
+craftingTable.remove(<item:industrialforegoing:material_stonework_factory>);
+craftingTable.remove(<item:industrialforegoing:mob_imprisonment_tool>);
+craftingTable.remove(<item:industrialforegoing:dryrubber>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_simple>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_advanced>);
+craftingTable.remove(<item:industrialforegoing:machine_frame_supreme>);
+craftingTable.remove(<item:industrialforegoing:infinity_nuke>);
+craftingTable.remove(<item:industrialforegoing:mob_duplicator>);
+craftingTable.remove(<item:industrialforegoing:enchantment_sorter>);
+craftingTable.remove(<item:industrialforegoing:enchantment_applicator>);
+craftingTable.remove(<item:industrialforegoing:enchantment_extractor>);
+craftingTable.remove(<item:industrialforegoing:enchantment_factory>);
+craftingTable.remove(<item:industrialforegoing:infinity_drill>);
+craftingTable.remove(<item:industrialforegoing:infinity_saw>);
+craftingTable.remove(<item:industrialforegoing:infinity_hammer>);
+craftingTable.remove(<item:industrialforegoing:infinity_trident>);
+craftingTable.remove(<item:industrialforegoing:infinity_launcher>);
+craftingTable.remove(<item:industrialforegoing:infinity_backpack>);
+
 // Building Gadgets
 craftingTable.remove(<item:buildinggadgets:gadget_destruction>);
 craftingTable.remove(<item:buildinggadgets:gadget_building>);

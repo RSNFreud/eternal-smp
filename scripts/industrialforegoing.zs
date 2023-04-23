@@ -31,10 +31,10 @@ craftingTable.addShaped("industrialforegoing_pitiful_generator", <item:industria
     [<item:the_vault:chromatic_iron_block>, <tag:items:forge:furnaces>, <item:the_vault:chromatic_iron_block>]
 ]);
 
-craftingTable.addShaped("industrialforegoing_material_sw_factory", <item:industrialforegoing:material_stonework_factory>, [
-    [<item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_iron_block>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:industrialforegoing:machine_frame_advanced>, <item:the_vault:void_liquid_bucket>],
-    [<item:the_vault:chromatic_iron_block>, <item:industrialforegoing:machine_frame_advanced>, <item:the_vault:chromatic_iron_block>]
+craftingTable.addShaped("industrialforegoing_material_stonework_factory", <item:industrialforegoing:material_stonework_factory>, [
+    [<item:industrialforegoing:plastic>, <item:minecraft:crafting_table>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:netherite_pickaxe>, <item:industrialforegoing:machine_frame_advanced>, <tag:items:forge:furnaces>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:industrialforegoing:pink_slime_ingot>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("industrialforegoing_dry_rubber", <item:industrialforegoing:dryrubber>, [
@@ -43,17 +43,72 @@ craftingTable.addShaped("industrialforegoing_dry_rubber", <item:industrialforego
     [<item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>, <item:industrialforegoing:tinydryrubber>]
 ]);
 
+craftingTable.addShaped("industrialforegoing_mob_imprisonment_tool", <item:industrialforegoing:mob_imprisonment_tool>, [
+    [<item:minecraft:air>, <item:industrialforegoing:plastic>, <item:minecraft:air>],
+    [<item:industrialforegoing:plastic>, <item:the_vault:vault_essence>, <item:industrialforegoing:plastic>],
+    [<item:minecraft:air>, <item:industrialforegoing:plastic>, <item:minecraft:air>]
+]);
 
+<recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("machine_frame_simple", { 
+    "input": [
+        {"item": "industrialforegoing:plastic"},
+        {"item": "industrialforegoing:machine_frame_pity"},
+        {"item": "industrialforegoing:plastic"},
+        {"item": "the_vault:chromatic_steel_ingot"},
+        {"item": "the_vault:chromatic_steel_ingot"},
+        {"item": "the_vault:chromatic_iron_ingot"},
+        {"tag": "forge:gears/gold"},
+        {"item": "the_vault:chromatic_iron_ingot"}
+    ],
+    "inputFluid": "{FluidName:\"industrialforegoing:latex\",Amount:1000}",
+    "processingTime": 500,
+    "output": {"item": "industrialforegoing:machine_frame_simple","count": 1}
+});
 
-/* yeet:
-iron gear
-gold gear
-diamond gear
-add IFGENS to seperate research
-mob_dupicator
-enchantment stuff
+<recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("machine_frame_advanced", { 
+    "input": [
+        {"item": "industrialforegoing:plastic"},
+        {"item": "industrialforegoing:machine_frame_simple"},
+        {"item": "industrialforegoing:plastic"},
+        {"item": "the_vault:extraordinary_larimar"},
+        {"item": "the_vault:extraordinary_larimar"},
+        {"item": "the_vault:chromatic_steel_ingot"},
+        {"tag": "forge:gears/diamond"},
+        {"item": "the_vault:chromatic_steel_ingot"}
+    ],
+    "inputFluid": "{FluidName:\"industrialforegoing:pink_slime\",Amount:1000}",
+    "processingTime": 500,
+    "output": {"item": "industrialforegoing:machine_frame_advanced","count": 1}
+});
 
-blacklist in vaults
-fluid placer
-stasis chamber
-*/
+<recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("machine_frame_supreme", { 
+    "input": [
+        {"item": "industrialforegoing:plastic"},
+        {"item": "industrialforegoing:machine_frame_advanced"},
+        {"item": "industrialforegoing:plastic"},
+        {"item": "the_vault:black_chromatic_steel_ingot"},
+        {"item": "the_vault:black_chromatic_steel_ingot"},
+        {"item": "the_vault:extraordinary_larimar"},
+        {"item": "the_vault:gem_pog"},
+        {"item": "the_vault:extraordinary_larimar"}
+    ],
+    "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:1000}",
+    "processingTime": 500,
+    "output": {"item": "industrialforegoing:machine_frame_supreme","count": 1}
+});
+
+<recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("infinity_nuke", { 
+    "input": [
+        {"item": "minecraft:tnt"},
+        {"item": "minecraft:tnt"},
+        {"item": "minecraft:tnt"},
+        {"item": "minecraft:tnt"},
+        {"item": "the_vault:omega_pog"},
+        {"item": "the_vault:black_chromatic_steel_block"},
+        {"item": "industrialforegoing:machine_frame_supreme"},
+        {"item": "the_vault:black_chromatic_steel_block"}
+    ],
+    "inputFluid": "{FluidName:\"industrialforegoing:ether_gas\",Amount:2000}",
+    "processingTime": 5000,
+    "output": {"item": "industrialforegoing:infinity_nuke","count": 1}
+});
