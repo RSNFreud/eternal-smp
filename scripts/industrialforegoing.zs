@@ -1,5 +1,6 @@
 /*scripts made for
 Eternal SMP by a1qs*/
+import crafttweaker.api.ingredient.IIngredient;
 
 craftingTable.addShaped("industrialforegoing_fluid_extractor", <item:industrialforegoing:fluid_extractor>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:light_weighted_pressure_plate>, <item:the_vault:chromatic_steel_ingot>],
@@ -112,3 +113,19 @@ craftingTable.addShaped("industrialforegoing_mob_imprisonment_tool", <item:indus
     "processingTime": 5000,
     "output": {"item": "industrialforegoing:infinity_nuke","count": 1}
 });
+
+var ingots as IIngredient[string] = {
+  "iron": <item:minecraft:iron_ingot> as IIngredient,
+  "gold": <item:minecraft:gold_ingot> as IIngredient,
+  "diamond": <item:minecraft:diamond> as IIngredient,
+} as IIngredient[string];
+
+
+for ingotId, ingotName in ingots {
+  craftingTable.remove(<item:industrialforegoing:${ingotId}_gear>);
+  craftingTable.addShaped("if_" + ingotId + "_gear", <item:industrialforegoing:${ingotId}_gear>, [
+    [<item:the_vault:gem_larimar>, ingotName, <item:the_vault:gem_larimar>],
+    [ingotName, <item:the_vault:chromatic_iron_ingot>, ingotName],
+    [<item:the_vault:gem_larimar>, ingotName, <item:the_vault:gem_larimar>]
+]);
+}

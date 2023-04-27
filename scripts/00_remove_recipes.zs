@@ -1275,3 +1275,8 @@ JEI.hideIngredient(<item:computercraft:computer_command>);
 // Eternal SMP
 JEI.hideIngredient(<item:the_vault:vault_doll>);
 craftingTable.remove(<item:the_vault:vault_doll>);
+craftingTable.remove(<item:the_vault:vault_doll>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_supreme>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_nuke>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_advanced>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_simple>);
