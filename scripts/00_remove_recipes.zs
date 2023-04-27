@@ -1271,3 +1271,7 @@ JEI.hideMod("titanium");
 JEI.hideIngredient(<item:computercraft:turtle_advanced>.withTag({RightUpgrade: "minecraft:crafting_table" as string}));
 JEI.hideIngredient(<item:computercraft:turtle_normal>.withTag({RightUpgrade: "minecraft:crafting_table" as string}));
 JEI.hideIngredient(<item:computercraft:computer_command>);
+
+// Eternal SMP
+JEI.hideIngredient(<item:the_vault:vault_doll>);
+craftingTable.remove(<item:the_vault:vault_doll>);
