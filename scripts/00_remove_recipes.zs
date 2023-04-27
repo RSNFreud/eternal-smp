@@ -889,6 +889,7 @@ craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
 craftingTable.remove(<item:the_vault:vault_artisan_station>);
 craftingTable.remove(<item:the_vault:vault_forge>);
 craftingTable.remove(<item:the_vault:orb_frame>);
+craftingTable.remove(<item:the_vault:vault_doll>);
 
 // Waystones
 craftingTable.remove(<item:waystones:waystone>);
