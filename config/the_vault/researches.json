@@ -36,7 +36,8 @@
     },
     {
       "modIds": [
-        "computercraft", "advancedperipherals"
+        "computercraft",
+        "advancedperipherals"
       ],
       "restrictions": {
         "restricts": {
