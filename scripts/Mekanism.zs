@@ -8,6 +8,7 @@ import mods.mekanism.api.ingredient.ChemicalStackIngredient.GasStackIngredient;
 import mods.mekanism.api.ingredient.ChemicalStackIngredient.SlurryStackIngredient;
 import mods.mekanism.api.ingredient.FluidStackIngredient;
 import mods.mekanism.api.ingredient.ItemStackIngredient;
+import mods.mekanism.recipe.Combining;
 
 <recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:chipped_vault_rock>);
 
@@ -145,9 +146,9 @@ craftingTable.addShaped("mekanism_upgrade_gas", <item:mekanism:upgrade_gas> *2, 
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShaped("mekanism_upgrade_anchor", <item:mekanism:upgrade_anchor>, [
+craftingTable.addShaped("mekanism_upgrade_stone_generator", <item:mekanism:upgrade_stone_generator> *1, [
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>],
-    [<item:mekanism:alloy_infused>, <item:weirdinggadget:weirding_gadget>, <item:mekanism:alloy_infused>],
+    [<item:mekanism:alloy_infused>, <item:compressium:cobblestone_1>, <item:mekanism:alloy_infused>],
     [<item:minecraft:air>, <item:minecraft:tinted_glass>, <item:minecraft:air>]
 ]);
 
