@@ -15,8 +15,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -51,8 +51,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -87,8 +87,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -123,8 +123,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -159,8 +159,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -195,8 +195,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -231,8 +231,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -264,11 +264,104 @@
         {
           "AMOUNT": 3,
           "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"velara\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_omniscient",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_omniscient",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"tenos\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_timekeeper",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_timekeeper",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"wendarr\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 5,
+          "ITEM": "minecraft:diamond",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_diamond",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "proficiencyType": "IDOL",
+      "id": "the_vault:idol_malevolence",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:idol_malevolence",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:god_blessing",
+          "NBT": "{type:\"idona\"}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {
@@ -298,8 +391,8 @@
           "NBT": "{}"
         },
         {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vault_gold",
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
           "NBT": "{}"
         },
         {

@@ -43,6 +43,7 @@
 
 	[wood_type.the_vault]
 		chromatic = true
+		driftwood = true
 
 [leaves_type]
 
