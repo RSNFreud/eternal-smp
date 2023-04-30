@@ -9,7 +9,7 @@
 	#Enables the protection for dimension changes too, default: true
 	dimensionprotection = true
 	#Enables the protection for respawning too, default: true
-	respawnprotection = true
+	respawnprotection = false
 
 [debug]
 	#Whether to enable debug log outputs, default: false

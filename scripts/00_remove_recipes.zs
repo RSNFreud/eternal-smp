@@ -984,6 +984,39 @@ craftingTable.remove(<item:computercraft:turtle_advanced>.withTag({RightUpgrade:
 craftingTable.remove(<item:computercraft:turtle_normal>.withTag({RightUpgrade: "minecraft:crafting_table" as string}));
 
 
+// remove old CC recipes
+craftingTable.removeByName("computercraft:pocket_computer_normal");
+craftingTable.removeByName("computercraft:pocket_computer_advanced");
+craftingTable.removeByName("computercraft:pocket_computer_advanced_upgrade");
+
+
+craftingTable.removeByName("advancedperipherals:peripheral_casing");
+craftingTable.removeByName("advancedperipherals:memory_card");
+craftingTable.removeByName("advancedperipherals:chunk_controller");
+craftingTable.removeByName("advancedperipherals:nbt_storage");
+craftingTable.removeByName("advancedperipherals:inventory_manager");
+
+
+
+//remove advanced peripherals stuffs
+craftingTable.remove(<item:advancedperipherals:end_automata_core>);
+craftingTable.remove(<item:advancedperipherals:overpowered_end_automata_core>);
+craftingTable.remove(<item:advancedperipherals:husbandry_automata_core>);
+craftingTable.remove(<item:advancedperipherals:overpowered_husbandry_automata_core>);
+craftingTable.remove(<item:advancedperipherals:weak_automata_core>);
+craftingTable.remove(<item:advancedperipherals:overpowered_weak_automata_core>);
+craftingTable.remove(<item:advancedperipherals:colony_integrator>);
+
+JEI.hideIngredient(<item:advancedperipherals:end_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:overpowered_end_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:husbandry_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:overpowered_husbandry_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:weak_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:overpowered_weak_automata_core>);
+JEI.hideIngredient(<item:advancedperipherals:colony_integrator>);
+JEI.hideIngredient(<item:advancedperipherals:memory_card>);
+JEI.hideIngredient(<item:advancedperipherals:inventory_manager>);
+
 // craftingTable.remove();   
 
 // removing items from JEI
@@ -1272,3 +1305,12 @@ JEI.hideMod("titanium");
 JEI.hideIngredient(<item:computercraft:turtle_advanced>.withTag({RightUpgrade: "minecraft:crafting_table" as string}));
 JEI.hideIngredient(<item:computercraft:turtle_normal>.withTag({RightUpgrade: "minecraft:crafting_table" as string}));
 JEI.hideIngredient(<item:computercraft:computer_command>);
+
+// Eternal SMP
+JEI.hideIngredient(<item:the_vault:vault_doll>);
+craftingTable.remove(<item:the_vault:vault_doll>);
+craftingTable.remove(<item:the_vault:vault_doll>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_supreme>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_nuke>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_advanced>);
+<recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_simple>);

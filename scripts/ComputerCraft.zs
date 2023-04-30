@@ -80,3 +80,33 @@ craftingTable.addShaped("cc_wired_modem", <item:computercraft:wired_modem>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
+
+craftingTable.addShaped("cc_pocket_pc_normal", <item:computercraft:pocket_computer_normal>, [
+    [<item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_iron_block>, <item:the_vault:chromatic_iron_block>],
+    [<item:the_vault:chromatic_iron_block>, <item:minecraft:golden_apple>, <item:the_vault:chromatic_iron_block>],
+    [<item:the_vault:chromatic_iron_block>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_iron_block>]
+]);
+
+craftingTable.addShaped("cc_pocket_pc_advanced", <item:computercraft:pocket_computer_advanced>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:air>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:computercraft:pocket_computer_normal>, <item:the_vault:chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("ap_peripheralcase", <item:advancedperipherals:peripheral_casing>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:iron_bars>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:minecraft:iron_bars>, <item:minecraft:redstone_block>, <item:minecraft:iron_bars>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:iron_bars>, <item:the_vault:chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("ap_chunkcontroller", <item:advancedperipherals:chunk_controller>, [
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:ender_eye>, <item:the_vault:chromatic_steel_ingot>],
+    [<item:minecraft:ender_eye>, <item:weirdinggadget:weirding_gadget>, <item:minecraft:ender_eye>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:ender_eye>, <item:the_vault:chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("ap_nbtstorage", <item:advancedperipherals:nbt_storage>, [
+    [<item:the_vault:chromatic_iron_ingot>, <tag:items:forge:chests>, <item:the_vault:chromatic_iron_ingot>],
+    [<tag:items:forge:chests>, <item:advancedperipherals:peripheral_casing>, <tag:items:forge:chests>],
+    [<item:minecraft:redstone_block>, <tag:items:forge:chests>, <item:minecraft:redstone_block>]
+]);
