@@ -895,9 +895,6 @@ craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
 
 // Vault
-craftingTable.remove(<item:the_vault:vault_artisan_station>);
-craftingTable.remove(<item:the_vault:vault_forge>);
-craftingTable.remove(<item:the_vault:orb_frame>);
 craftingTable.remove(<item:the_vault:vault_doll>);
 
 // Waystones
@@ -1572,8 +1569,6 @@ JEI.hideIngredient(<item:computercraft:computer_command>);
 
 // Eternal SMP
 JEI.hideIngredient(<item:the_vault:vault_doll>);
-craftingTable.remove(<item:the_vault:vault_doll>);
-craftingTable.remove(<item:the_vault:vault_doll>);
 <recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_supreme>);
 <recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:infinity_nuke>);
 <recipetype:industrialforegoing:dissolution_chamber>.remove(<item:industrialforegoing:machine_frame_advanced>);
