@@ -404,7 +404,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
