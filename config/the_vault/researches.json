@@ -357,7 +357,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -398,7 +398,7 @@
     },
     {
       "modIds": [
-        "easy_villagers",  "easy_piglins"
+        "easy_villagers", "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -443,7 +443,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -546,7 +546,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -643,8 +643,7 @@
       "usesKnowledge": true
     }
   ],
-  "CUSTOM_RESEARCHES": [
-    {
+  "CUSTOM_RESEARCHES": [{
       "itemRestrictions": {
         "ae2:molecular_assembler": {
           "restricts": {
@@ -1006,7 +1005,7 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
-    
+
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:backpack": {
