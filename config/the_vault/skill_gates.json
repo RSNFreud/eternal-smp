@@ -54,7 +54,7 @@
           
         ],
         "lockedBy": [
-          "Treasure_Hunter"
+          
         ]
       },
       "Careless": {
@@ -241,7 +241,11 @@
           "Big Backpacks",
           "ComputerCraft",
           "Industrial Foregoing",
-          "Thermal Dynamos"
+          "Thermal Dynamos",
+          "Botania Flux Field",
+          "Potions",
+          "Mixtures",
+          "Brews"
         ],
         "ignoreArrow": true
       },
