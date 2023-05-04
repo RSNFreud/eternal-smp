@@ -174,7 +174,10 @@
 		"framedcompactdrawers:*",
 		"storagedrawers:*",
 		"minecraft:ender_pearl",
-		"minecraft:firework_rocket"
+		"minecraft:firework_rocket",
+		"computercraft:*",
+		"advancedperipherals:*",
+		"rsgauges:*"
 	],
 	"BLOCK_BLACKLIST": [
 		"darkutils:*",
@@ -596,7 +599,10 @@
 		"mekanism:quantum_entangloporter",
 		"the_vault:bounty_block",
 		"the_vault:angel_block",
-		"dummmmmmy:target_dummy_placer"
+		"dummmmmmy:target_dummy_placer",
+		"computercraft:*",
+		"advancedperipherals:*",
+		"rsgauges:*"
 	],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,
