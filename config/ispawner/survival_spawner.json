@@ -109,6 +109,7 @@
     "minecraft:zombie_horse_spawn_egg",
     "minecraft:zombie_villager_spawn_egg",
     "minecraft:zombified_piglin_spawn_egg",
-    "alexsmobs:spawn_egg_flutter"
+    "alexsmobs:spawn_egg_flutter",
+    "cagerium:iron_golem_spawn_egg"
   ]
 }
