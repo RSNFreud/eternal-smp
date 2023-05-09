@@ -50,6 +50,18 @@ craftingTable.addShaped("industrialforegoing_mob_imprisonment_tool", <item:indus
     [<item:minecraft:air>, <item:industrialforegoing:plastic>, <item:minecraft:air>]
 ]);
 
+craftingTable.addShaped("industrialforegoing_laser_drill", <item:industrialforegoing:laser_drill>, [
+    [<item:industrialforegoing:plastic>, <item:the_vault:black_chromatic_steel_ingot>, <item:industrialforegoing:plastic>],
+    [<item:the_vault:extraordinary_larimar>, <item:industrialforegoing:machine_frame_simple>, <item:the_vault:extraordinary_larimar>],
+    [<tag:items:forge:gears/gold>, <item:the_vault:echo_pog>, <tag:items:forge:gears/gold>]
+]);
+
+craftingTable.addShaped("industrialforegoing_laser_base_ore", <item:industrialforegoing:ore_laser_base>, [
+    [<item:industrialforegoing:plastic>, <item:minecraft:netherite_pickaxe>, <item:industrialforegoing:plastic>],
+    [<item:the_vault:echo_pog>, <item:industrialforegoing:machine_frame_supreme>, <item:the_vault:echo_pog>],
+    [<tag:items:forge:gears/diamond>, <item:the_vault:omega_pog>, <tag:items:forge:gears/diamond>]
+]);
+
 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("machine_frame_simple", { 
     "input": [
         {"item": "industrialforegoing:plastic"},
