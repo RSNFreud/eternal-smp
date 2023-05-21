@@ -736,6 +736,9 @@ craftingTable.remove(<item:industrialforegoing:infinity_hammer>);
 craftingTable.remove(<item:industrialforegoing:infinity_trident>);
 craftingTable.remove(<item:industrialforegoing:infinity_launcher>);
 craftingTable.remove(<item:industrialforegoing:infinity_backpack>);
+craftingTable.remove(<item:industrialforegoing:laser_drill>);
+craftingTable.remove(<item:industrialforegoing:ore_laser_base>);
+craftingTable.remove(<item:industrialforegoing:fluid_laser_base>);
 
 // Building Gadgets
 craftingTable.remove(<item:buildinggadgets:gadget_destruction>);

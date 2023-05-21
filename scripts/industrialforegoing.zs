@@ -22,7 +22,7 @@ craftingTable.addShaped("industrialforegoing_dissolution_chamber", <item:industr
 
 craftingTable.addShaped("industrialforegoing_frame_pity", <item:industrialforegoing:machine_frame_pity>, [
     [<item:the_vault:chromatic_log>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_log>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:redstone_block>, <item:the_vault:void_liquid_bucket>],
+    [<item:the_vault:chromatic_steel_ingot>, <item:minecraft:redstone_block>, <item:the_vault:chromatic_steel_ingot>],
     [<item:the_vault:chromatic_log>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_log>]
 ]);
 
@@ -60,6 +60,12 @@ craftingTable.addShaped("industrialforegoing_laser_base_ore", <item:industrialfo
     [<item:industrialforegoing:plastic>, <item:minecraft:netherite_pickaxe>, <item:industrialforegoing:plastic>],
     [<item:the_vault:echo_pog>, <item:industrialforegoing:machine_frame_supreme>, <item:the_vault:echo_pog>],
     [<tag:items:forge:gears/diamond>, <item:the_vault:omega_pog>, <tag:items:forge:gears/diamond>]
+]);
+
+craftingTable.addShaped("industrialforegoing_laser_base_fluid", <item:industrialforegoing:fluid_laser_base>, [
+    [<item:industrialforegoing:plastic>, <item:minecraft:netherite_pickaxe>, <item:industrialforegoing:plastic>],
+    [<item:the_vault:void_liquid_bucket>, <item:industrialforegoing:machine_frame_supreme>, <item:the_vault:void_liquid_bucket>],
+    [<tag:items:forge:gears/diamond>, <item:the_vault:echo_pog>, <tag:items:forge:gears/diamond>]
 ]);
 
 <recipetype:industrialforegoing:dissolution_chamber>.addJsonRecipe("machine_frame_simple", { 
