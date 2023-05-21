@@ -7,8 +7,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -24,8 +24,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -42,8 +42,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -59,8 +59,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -76,8 +76,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -99,8 +99,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -123,8 +123,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -146,7 +146,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -163,8 +163,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -226,8 +226,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -243,8 +243,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -260,8 +260,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -283,8 +283,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -300,8 +300,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -317,8 +317,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -334,8 +334,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -358,7 +358,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": false,
-          "USABILITY": true,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -380,8 +380,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -403,7 +403,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -426,8 +426,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -444,7 +444,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": false,
-          "USABILITY": true,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -466,8 +466,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -483,8 +483,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -500,8 +500,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -522,11 +522,11 @@
       ],
       "restrictions": {
         "restricts": {
-          "HITTABILITY": true,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": true
+          "ENTITY_INTERACTABILITY": false
         }
       },
       "name": "Flux Networks",
@@ -547,7 +547,7 @@
         "restricts": {
           "HITTABILITY": false,
           "BLOCK_INTERACTABILITY": false,
-          "USABILITY": true,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -569,8 +569,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -592,8 +592,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -609,8 +609,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -632,8 +632,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
+          "BLOCK_INTERACTABILITY": false,
+          "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
