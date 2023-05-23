@@ -38,7 +38,7 @@ craftingTable.addShaped("nautilus_craft", <item:minecraft:nautilus_shell>, [
 
 craftingTable.addShaped("trident_craft", <item:minecraft:trident>, [
     [<item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>],
-    [<item:minecraft:prismarine_shard>, <item:the_vault:netherite_ingot>, <item:minecraft:prismarine_shard>],
+    [<item:minecraft:prismarine_shard>, <item:minecraft:netherite_ingot>, <item:minecraft:prismarine_shard>],
     [<item:minecraft:air>, <item:the_vault:extraordinary_larimar>, <item:minecraft:air>]
 ]);
 
