@@ -312,7 +312,8 @@
     },
     {
       "modIds": [
-        "weirdinggadget"
+        "weirdinggadget",
+        "chunkymcchunkface"
       ],
       "restrictions": {
         "restricts": {
@@ -398,7 +399,8 @@
     },
     {
       "modIds": [
-        "easy_villagers", "easy_piglins"
+        "easy_villagers",
+        "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -643,7 +645,8 @@
       "usesKnowledge": true
     }
   ],
-  "CUSTOM_RESEARCHES": [{
+  "CUSTOM_RESEARCHES": [
+    {
       "itemRestrictions": {
         "ae2:molecular_assembler": {
           "restricts": {
@@ -1005,7 +1008,6 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
-
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:backpack": {
@@ -1244,14 +1246,14 @@
             "CRAFTABILITY": true
           }
         }
-
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Potions",
       "cost": 2,
       "usesKnowledge": true
-    }, {
+    },
+    {
       "itemRestrictions": {
         "the_vault:bottle{type:\"mixture\"}": {
           "restricts": {
@@ -1266,7 +1268,8 @@
       "name": "Mixtures",
       "cost": 2,
       "usesKnowledge": true
-    }, {
+    },
+    {
       "itemRestrictions": {
         "the_vault:bottle{type:\"brew\"}": {
           "restricts": {
