@@ -1,5 +1,4 @@
 import mods.jei.JEI;
-
 // adding recipes
 
 craftingTable.addShaped("relic_reroll", <item:the_vault:unidentified_relic_fragment>, [
@@ -40,6 +39,12 @@ craftingTable.addShaped("trident_craft", <item:minecraft:trident>, [
     [<item:the_vault:perfect_larimar>, <item:the_vault:gem_larimar>, <item:the_vault:perfect_larimar>],
     [<item:minecraft:prismarine_shard>, <item:minecraft:netherite_ingot>, <item:minecraft:prismarine_shard>],
     [<item:minecraft:air>, <item:the_vault:extraordinary_larimar>, <item:minecraft:air>]
+]);
+
+craftingTable.remove(<item:architects_palette:unobtanium>);
+
+craftingTable.addShapeless("jayotanium", <item:architects_palette:unobtanium> * 64, [
+  <item:architects_palette:unobtanium_block>
 ]);
 
 JEI.addIngredient(<item:the_vault:chromatic_iron_tiny_dust>.withTag({CustomModelData: 1337 as int, display: {Lore: ["[{\"text\":\"High end crafting material\",\"italic\":false,\"color\":\"gray\"}]" as string, "[{\"text\":\"used in unobtainable recipes\",\"italic\":false,\"color\":\"gray\"}]" as string], Name: "[{\"text\":\"Spark\",\"italic\":false}]" as string}}));
