@@ -221,7 +221,6 @@
 		"ae2:matrix_frame",
 		"ae2:quantum_link",
 		"ae2:quartz_stairs",
-		"ae2:sky_stone_block",
 		"ae2:light_detector",
 		"ae2:dense_energy_cell",
 		"ae2:pattern_provider",
@@ -284,6 +283,11 @@
 		"botania:skydirt_rod",
 		"botania:dirt_rod",
 		"botania:astrolobe",
+		"botania:fel_pumpkin",
+		"botania:rannuncarpus",
+		"botania:rannuncarpus_chibi",
+		"botania:floating_rannuncarpus",
+		"botania:floating_rannuncarpus_chibi",
 		"cagerium:*",
 		"supplementaries:cage",
 		"dummmmmmy:target_dummy_placer",
@@ -613,20 +617,16 @@
 		"25": "GOLD",
 		"48": "RED"
 	},
-	"VAULT_OBJECTIVES": [
-		{
+	"VAULT_OBJECTIVES": [{
 			"level": 0,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				}
-			]
+			"outcomes": [{
+				"value": "the_vault:summon_and_kill_boss",
+				"weight": 14
+			}]
 		},
 		{
 			"level": 25,
-			"outcomes": [
-				{
+			"outcomes": [{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -638,8 +638,7 @@
 		},
 		{
 			"level": 50,
-			"outcomes": [
-				{
+			"outcomes": [{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -650,20 +649,16 @@
 			]
 		}
 	],
-	"VAULT_COOP_OBJECTIVES": [
-		{
+	"VAULT_COOP_OBJECTIVES": [{
 			"level": 0,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				}
-			]
+			"outcomes": [{
+				"value": "the_vault:summon_and_kill_boss",
+				"weight": 14
+			}]
 		},
 		{
 			"level": 25,
-			"outcomes": [
-				{
+			"outcomes": [{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -675,8 +670,7 @@
 		},
 		{
 			"level": 50,
-			"outcomes": [
-				{
+			"outcomes": [{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},

@@ -287,10 +287,13 @@
       "y": 240,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
+    },
+    "Altar Automation": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/conduit"
     }
-    
-    
-    
   }
-    
+
 }
