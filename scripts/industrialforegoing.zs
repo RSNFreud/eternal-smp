@@ -64,7 +64,7 @@ craftingTable.addShaped("industrialforegoing_laser_base_ore", <item:industrialfo
 
 craftingTable.addShaped("industrialforegoing_laser_base_fluid", <item:industrialforegoing:fluid_laser_base>, [
     [<item:industrialforegoing:plastic>, <item:minecraft:netherite_pickaxe>, <item:industrialforegoing:plastic>],
-    [<item:the_vault:void_liquid_bucket>, <item:industrialforegoing:machine_frame_supreme>, <item:the_vault:void_liquid_bucket>],
+    [<item:the_vault:void_liquid_bucket>, <item:industrialforegoing:machine_frame_advanced>, <item:the_vault:void_liquid_bucket>],
     [<tag:items:forge:gears/diamond>, <item:the_vault:echo_pog>, <tag:items:forge:gears/diamond>]
 ]);
 
