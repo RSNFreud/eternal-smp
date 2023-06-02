@@ -133,8 +133,8 @@
       "icon": "the_vault:gui/researches/vault_compass"
     },
     "Gauges & Switches": {
-      "x": 490,
-      "y": 160,
+      "x": 390,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/rftools_utility"
     },
@@ -272,25 +272,27 @@
     },
     "Potions": {
       "x": 390,
-      "y": 240,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/potion"
     },
     "Mixtures": {
       "x": 440,
-      "y": 240,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mixture"
     },
     "Brews": {
       "x": 490,
-      "y": 240,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
+    },
+    "Altar Automation": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/conduit"
     }
-    
-    
-    
   }
-    
 }

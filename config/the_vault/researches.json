@@ -1,6 +1,5 @@
 {
-  "MOD_RESEARCHES": [
-    {
+  "MOD_RESEARCHES": [{
       "modIds": [
         "colossalchests"
       ],
@@ -24,7 +23,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -42,7 +41,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -59,8 +58,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -123,7 +122,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -146,7 +145,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -312,7 +311,8 @@
     },
     {
       "modIds": [
-        "weirdinggadget"
+        "weirdinggadget",
+        "chunkymcchunkface"
       ],
       "restrictions": {
         "restricts": {
@@ -334,8 +334,8 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
-          "USABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
         }
@@ -398,7 +398,8 @@
     },
     {
       "modIds": [
-        "easy_villagers", "easy_piglins"
+        "easy_villagers",
+        "easy_piglins"
       ],
       "restrictions": {
         "restricts": {
@@ -483,7 +484,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -500,7 +501,7 @@
       "restrictions": {
         "restricts": {
           "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
           "USABILITY": false,
           "CRAFTABILITY": true,
           "ENTITY_INTERACTABILITY": false
@@ -522,11 +523,11 @@
       ],
       "restrictions": {
         "restricts": {
-          "HITTABILITY": false,
+          "HITTABILITY": true,
           "BLOCK_INTERACTABILITY": false,
           "USABILITY": false,
           "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
+          "ENTITY_INTERACTABILITY": true
         }
       },
       "name": "Flux Networks",
@@ -867,6 +868,43 @@
     },
     {
       "itemRestrictions": {
+        "vaultintegrations:altar_conduit": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:speed_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:quantity_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "vaultintegrations:teleport_enhancement": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Altar Automation",
+      "cost": 32,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
         "thermal:dynamo_stirling": {
           "restricts": {
             "HITTABILITY": true,
@@ -920,6 +958,62 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Thermal Dynamos",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:bottle{type:\"potion\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "the_vault:alchemy_table": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Potions",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:bottle{type:\"mixture\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Mixtures",
+      "cost": 2,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:bottle{type:\"brew\"}": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Brews",
       "cost": 2,
       "usesKnowledge": true
     },
@@ -1011,7 +1105,7 @@
         "sophisticatedbackpacks:backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
@@ -1041,7 +1135,7 @@
         "sophisticatedbackpacks:iron_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
@@ -1055,7 +1149,7 @@
         "sophisticatedbackpacks:stack_upgrade_tier_2": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         }
@@ -1071,7 +1165,7 @@
         "sophisticatedbackpacks:gold_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
@@ -1122,7 +1216,7 @@
         "sophisticatedbackpacks:diamond_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
@@ -1180,7 +1274,7 @@
         "sophisticatedbackpacks:netherite_backpack": {
           "restricts": {
             "HITTABILITY": false,
-            "USABILITY": true,
+            "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
@@ -1225,60 +1319,6 @@
       "blockRestrictions": {},
       "entityRestrictions": {},
       "name": "Botania Flux Field",
-      "cost": 2,
-      "usesKnowledge": true
-    },
-    {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"potion\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        },
-        "the_vault:alchemy_table": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-
-      },
-      "blockRestrictions": {},
-      "entityRestrictions": {},
-      "name": "Potions",
-      "cost": 2,
-      "usesKnowledge": true
-    }, {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"mixture\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
-      "blockRestrictions": {},
-      "entityRestrictions": {},
-      "name": "Mixtures",
-      "cost": 2,
-      "usesKnowledge": true
-    }, {
-      "itemRestrictions": {
-        "the_vault:bottle{type:\"brew\"}": {
-          "restricts": {
-            "HITTABILITY": true,
-            "USABILITY": true,
-            "CRAFTABILITY": true
-          }
-        }
-      },
-      "blockRestrictions": {},
-      "entityRestrictions": {},
-      "name": "Brews",
       "cost": 2,
       "usesKnowledge": true
     }

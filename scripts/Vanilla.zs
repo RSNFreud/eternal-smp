@@ -275,42 +275,9 @@ craftingTable.addShapeless("necrotic_bones", <item:minecraft:bone>, [
 <recipetype:create:item_application>.addRecipe("rooted_dirt", [<item:minecraft:rooted_dirt>],
 <item:minecraft:coarse_dirt>, <item:minecraft:rotten_flesh>);
 
-
-// craftingTable.addShaped("brew1", <item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}), [
-//     [<item:the_vault:vault_diamond_block>, <item:minecraft:poppy>, <item:the_vault:vault_diamond_block>],
-//     [<item:the_vault:hearty_apple>, <item:minecraft:glass_bottle>, <item:the_vault:hearty_apple>],
-//     [<item:the_vault:poisonous_mushroom>, <item:the_vault:echo_pog>, <item:the_vault:poisonous_mushroom>]
-// ]);
-// <recipetype:minecraft:crafting_shaped>.addJsonRecipe("brew1", 
-// {
-//     "pattern": [
-//     "dfd",
-//     "aba",
-//     "cec"
-//   ],
-//   "key": {
-//     "a": {
-//       "item": "the_vault:hearty_apple"
-//     },
-//     "b": {
-//       "item": "minecraft:glass_bottle"
-//     },
-//     "c": {
-//       "item": "the_vault:poisonous_mushroom"
-//     },
-//     "d": {
-//       "item": "the_vault:vault_diamond_block"
-//     },
-//     "e": {
-//       "item": "the_vault:echo_pog"
-//     },
-//     "f": {
-//       "item": "minecraft:poppy"
-//     }
-//   },
-//   "result": {
-//     "item": "the_vault:bottle",
-//     "count": 1,
-//     "nbt": "{charges:6,recharge:\"time\",type:\"brew\",vaultGearData:[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}"
-//   }
-// });
+craftingTable.remove(<item:chunkymcchunkface:chunk_loader>);
+craftingTable.addShaped("chunky_gadget", <item:chunkymcchunkface:chunk_loader>, [
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>],
+    [<item:minecraft:gold_block>, <item:the_vault:gem_pog>, <item:minecraft:gold_block>],
+    [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>]
+]);

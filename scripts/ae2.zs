@@ -1,8 +1,6 @@
 /* scripts made by Douwsky
 for Iskall85's Vaulthunters */
 
-import crafttweaker.api.recipe.SmithingRecipeManager;
-
 // adding recipes
 
 craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [
@@ -220,9 +218,9 @@ craftingTable.addShapeless("ae2_shapeless_crafting_card", <item:ae2:crafting_car
 ]);
 
 craftingTable.addShaped("ae2_energy_cell", <item:ae2:energy_cell>, [
-    [<item:ae2:quartz_pillar>, <tag:items:forge:gems/fluix>, <item:ae2:chiseled_quartz_block>],
+    [<item:ae2:quartz_block>, <tag:items:forge:gems/fluix>, <item:ae2:quartz_block>],
     [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:perfect_larimar>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:ae2:chiseled_quartz_block>, <tag:items:forge:gems/fluix>, <item:ae2:quartz_pillar>]
+    [<item:ae2:quartz_block>, <tag:items:forge:gems/fluix>, <item:ae2:quartz_block>]
 ]);
 
 craftingTable.addShaped("ae2_crafting_unit", <item:ae2:crafting_unit>, [
@@ -287,16 +285,16 @@ craftingTable.addShaped("ae2_pattern", <item:ae2:blank_pattern>, [
     [<item:the_vault:chromatic_iron_ingot>,<item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring>, [
-    [<item:the_vault:chromatic_steel_ingot>,  <item:ae2:engineering_processor>, <item:the_vault:chromatic_steel_ingot>], 
-    [ <tag:items:ae2:smart_dense_cable>, <item:ae2:fluix_block>, <tag:items:ae2:smart_dense_cable>],
-    [<item:the_vault:chromatic_steel_ingot>,  <item:ae2:engineering_processor>, <item:the_vault:chromatic_steel_ingot>]]
+craftingTable.addShaped("quantum_ring", <item:ae2:quantum_ring> *8, [
+    [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>], 
+    [ <item:ae2:engineering_processor>, <item:ae2:dense_energy_cell>, <tag:items:ae2:smart_dense_cable>],
+    [<item:the_vault:black_chromatic_steel_ingot>,  <item:ae2:logic_processor>, <item:the_vault:black_chromatic_steel_ingot>]]
 );
 
 craftingTable.addShaped("singularity", <item:ae2:singularity>, [
-    [<item:the_vault:extraordinary_larimar>,  <item:the_vault:chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>], 
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:chromatic_steel_ingot>], 
-    [<item:the_vault:extraordinary_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>]]
+    [<item:the_vault:extraordinary_larimar>,  <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>], 
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:vault_diamond_block>, <item:the_vault:black_chromatic_steel_ingot>], 
+    [<item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>]]
 );
 craftingTable.addShaped("io_port", <item:ae2:io_port>, [
     [<item:the_vault:chromatic_steel_ingot>,  <item:the_vault:chromatic_steel_ingot>, <item:the_vault:chromatic_steel_ingot>], 
