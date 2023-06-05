@@ -1,6 +1,9 @@
 import mods.jei.JEI;
 // adding recipes
 
+<block:the_vault:vault_stone_stairs>.addLootModifier("stone_stairs",CommonLootModifiers.clearing(CommonLootModifiers.add(<item:the_vault:vault_stone_stairs>)));
+<block:the_vault:vault_stone_slab>.addLootModifier("stone_slab",CommonLootModifiers.clearing(CommonLootModifiers.add(<item:the_vault:vault_stone_slab>)));
+
 craftingTable.addShaped("relic_reroll", <item:the_vault:unidentified_relic_fragment>, [
     [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>],
     [<item:the_vault:vault_relic_fragment>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:vault_relic_fragment>],
