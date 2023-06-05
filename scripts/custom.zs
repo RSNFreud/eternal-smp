@@ -1,8 +1,11 @@
 import mods.jei.JEI;
+import crafttweaker.api.loot.modifier.CommonLootModifiers;
+
 // adding recipes
 
-<block:the_vault:vault_stone_stairs>.addLootModifier("stone_stairs",CommonLootModifiers.clearing(CommonLootModifiers.add(<item:the_vault:vault_stone_stairs>)));
-<block:the_vault:vault_stone_slab>.addLootModifier("stone_slab",CommonLootModifiers.clearing(CommonLootModifiers.add(<item:the_vault:vault_stone_slab>)));
+<block:the_vault:vault_stone_stairs>.addLootModifier("stone_stairs",CommonLootModifiers.add(<item:the_vault:vault_stone_stairs>));
+<block:the_vault:vault_stone_slab>.addLootModifier("stone_slab",CommonLootModifiers.add(<item:the_vault:vault_stone_slab>));
+<blockstate:the_vault:vault_stone_slab:type=double>.addLootModifier("stone_slab_double",CommonLootModifiers.add(<item:the_vault:vault_stone_slab> * 2));
 
 craftingTable.addShaped("relic_reroll", <item:the_vault:unidentified_relic_fragment>, [
     [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>],
