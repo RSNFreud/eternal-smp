@@ -13,7 +13,7 @@ import mods.mekanism.recipe.Combining;
 <recipetype:mekanism:crushing>.addRecipe("crush_vaultstone_to_rock", ItemStackIngredient.from(<item:the_vault:vault_stone> *2), <item:the_vault:chipped_vault_rock>);
 
 <recipetype:mekanism:dissolution>.addRecipe("chromaticore_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:chromatic_iron_ore>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 1000);
-<recipetype:mekanism:dissolution>.addRecipe("chromaticraw_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 600);
+<recipetype:mekanism:dissolution>.addRecipe("chromaticraw_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron> *3), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 2000);
 <recipetype:mekanism:dissolution>.addRecipe("chromaticblock_to_dirty_slurry", ItemStackIngredient.from(<item:the_vault:raw_chromatic_iron_block>), GasStackIngredient.from(<gas:mekanism:sulfuric_acid>), <slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry> * 6000);
 
 <recipetype:mekanism:washing>.addRecipe("cleaning_chromatic_slurry", FluidStackIngredient.from(<tag:fluids:minecraft:water>, 10), SlurryStackIngredient.from(<slurry:crafttweaker:the_vault_dirty_chromatic_iron_slurry>), <slurry:crafttweaker:the_vault_clean_chromatic_iron_slurry>);

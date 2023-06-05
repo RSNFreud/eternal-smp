@@ -63,8 +63,6 @@ for gemId, gemName in gems {
 <recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *4 % -100], <item:the_vault:chromatic_iron_ore>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2 % -100], <item:the_vault:raw_chromatic_iron>, 3, 4000);
 <recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust> *1 % -100], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
-<recipetype:thermal:pulverizer>.addRecipe("ae2_compat", [<item:ae2:fluix_crystal> *1 % -100], <item:ae2:fluix_crystal_seed>,1, 2000);
-<recipetype:thermal:pulverizer>.addRecipe("ae2_compat_a1_very_smelly", [<item:ae2:certus_quartz_crystal> *1 % -100], <item:ae2:certus_crystal_seed>,1, 2000);
 
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
 
