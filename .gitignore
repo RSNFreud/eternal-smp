@@ -22,3 +22,4 @@ config\xaerominimap_entities
 *.bak
 emojiful/cache/
 simplebackups
+config/konkrete/locals/*
