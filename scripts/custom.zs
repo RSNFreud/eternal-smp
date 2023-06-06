@@ -5,7 +5,7 @@ import crafttweaker.api.loot.modifier.CommonLootModifiers;
 
 <block:the_vault:vault_stone_stairs>.addLootModifier("stone_stairs",CommonLootModifiers.add(<item:the_vault:vault_stone_stairs>));
 <block:the_vault:vault_stone_slab>.addLootModifier("stone_slab",CommonLootModifiers.add(<item:the_vault:vault_stone_slab>));
-<blockstate:the_vault:vault_stone_slab:type=double>.addLootModifier("stone_slab_double",CommonLootModifiers.add(<item:the_vault:vault_stone_slab> * 2));
+<blockstate:the_vault:vault_stone_slab:type=double>.addTargetedLootModifier("stone_slab_double",CommonLootModifiers.add(<item:the_vault:vault_stone_slab> * 2));
 
 craftingTable.addShaped("relic_reroll", <item:the_vault:unidentified_relic_fragment>, [
     [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>],
