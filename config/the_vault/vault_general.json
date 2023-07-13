@@ -176,6 +176,7 @@
 		"storagedrawers:*",
 		"minecraft:ender_pearl",
 		"minecraft:firework_rocket",
+		"naturescompass:naturescompass",
 		"computercraft:*",
 		"advancedperipherals:*",
 		"rsgauges:*"
@@ -609,7 +610,7 @@
 		"computercraft:*",
 		"advancedperipherals:*",
 		"rsgauges:*"
-	],
+		],
 	"VAULT_EXIT_TNL_MIN": 0.5,
 	"VAULT_EXIT_TNL_MAX": 1.0,
 	"MONTHS_TO_TAG_COLOR": {
@@ -619,16 +620,20 @@
 		"25": "GOLD",
 		"48": "RED"
 	},
-	"VAULT_OBJECTIVES": [{
+	"VAULT_OBJECTIVES": [
+		{
 			"level": 0,
-			"outcomes": [{
-				"value": "the_vault:summon_and_kill_boss",
-				"weight": 14
-			}]
+			"outcomes": [
+				{
+					"value": "the_vault:summon_and_kill_boss",
+					"weight": 14
+				}
+			]
 		},
 		{
 			"level": 25,
-			"outcomes": [{
+			"outcomes": [
+				{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -640,7 +645,8 @@
 		},
 		{
 			"level": 50,
-			"outcomes": [{
+			"outcomes": [
+				{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -651,16 +657,20 @@
 			]
 		}
 	],
-	"VAULT_COOP_OBJECTIVES": [{
+	"VAULT_COOP_OBJECTIVES": [
+		{
 			"level": 0,
-			"outcomes": [{
-				"value": "the_vault:summon_and_kill_boss",
-				"weight": 14
-			}]
+			"outcomes": [
+				{
+					"value": "the_vault:summon_and_kill_boss",
+					"weight": 14
+				}
+			]
 		},
 		{
 			"level": 25,
-			"outcomes": [{
+			"outcomes": [
+				{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
@@ -672,7 +682,8 @@
 		},
 		{
 			"level": 50,
-			"outcomes": [{
+			"outcomes": [
+				{
 					"value": "the_vault:summon_and_kill_boss",
 					"weight": 14
 				},
