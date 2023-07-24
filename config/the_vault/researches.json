@@ -1,5 +1,6 @@
 {
-  "MOD_RESEARCHES": [{
+  "MOD_RESEARCHES": [
+    {
       "modIds": [
         "colossalchests"
       ],
@@ -311,8 +312,8 @@
     },
     {
       "modIds": [
-        "weirdinggadget",
-        "chunkymcchunkface"
+        "chunkymcchunkface",
+        "weirdinggadget"
       ],
       "restrictions": {
         "restricts": {
@@ -644,7 +645,8 @@
       "usesKnowledge": true
     }
   ],
-  "CUSTOM_RESEARCHES": [{
+  "CUSTOM_RESEARCHES": [
+    {
       "itemRestrictions": {
         "ae2:molecular_assembler": {
           "restricts": {
@@ -977,7 +979,6 @@
             "CRAFTABILITY": true
           }
         }
-
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -1099,7 +1100,6 @@
         "the_vault:gear/armor/dank/boots"
       ]
     },
-
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:backpack": {
@@ -1110,6 +1110,13 @@
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_1": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
@@ -1242,13 +1249,6 @@
           }
         },
         "sophisticatedbackpacks:stack_upgrade_tier_4": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
