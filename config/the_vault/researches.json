@@ -1101,14 +1101,15 @@
       ]
     },
     {
+      "itemRestrictions": {},
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Pouches",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
       "itemRestrictions": {
-        "sophisticatedbackpacks:backpack": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "sophisticatedbackpacks:stack_upgrade_tier_1": {
           "restricts": {
             "HITTABILITY": false,
@@ -1116,14 +1117,21 @@
             "CRAFTABILITY": true
           }
         },
-        "sophisticatedbackpacks:void_upgrade": {
+        "sophisticatedbackpacks:stack_upgrade_tier_2": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
             "CRAFTABILITY": true
           }
         },
-        "sophisticatedbackpacks:pickup_upgrade": {
+        "sophisticatedbackpacks:stack_upgrade_tier_3": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:stack_upgrade_tier_4": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
@@ -1133,19 +1141,12 @@
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
-      "name": "Pouches",
+      "name": "Stack Upgrading",
       "cost": 1,
       "usesKnowledge": true
     },
     {
       "itemRestrictions": {
-        "sophisticatedbackpacks:iron_backpack": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
         "sophisticatedbackpacks:refill_upgrade": {
           "restricts": {
             "HITTABILITY": false,
@@ -1153,7 +1154,46 @@
             "CRAFTABILITY": true
           }
         },
-        "sophisticatedbackpacks:stack_upgrade_tier_2": {
+        "sophisticatedbackpacks:advanced_refill_upgrade": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Auto Refill",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "sophisticatedbackpacks:feeding_upgrade": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        },
+        "sophisticatedbackpacks:advanced_feeding_upgrade": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Auto Feeding",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "sophisticatedbackpacks:iron_backpack": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,
@@ -1175,41 +1215,6 @@
             "USABILITY": false,
             "CRAFTABILITY": true
           }
-        },
-        "sophisticatedbackpacks:deposit_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:restock_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:filter_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_pickup_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:stack_upgrade_tier_3": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
         }
       },
       "blockRestrictions": {},
@@ -1226,41 +1231,6 @@
             "USABILITY": false,
             "CRAFTABILITY": true
           }
-        },
-        "sophisticatedbackpacks:advanced_deposit_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_restock_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_filter_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:stack_upgrade_tier_4": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_refill_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
         }
       },
       "blockRestrictions": {},
@@ -1272,27 +1242,6 @@
     {
       "itemRestrictions": {
         "sophisticatedbackpacks:netherite_backpack": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_feeding_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:feeding_upgrade": {
-          "restricts": {
-            "HITTABILITY": false,
-            "USABILITY": false,
-            "CRAFTABILITY": true
-          }
-        },
-        "sophisticatedbackpacks:advanced_void_upgrade": {
           "restricts": {
             "HITTABILITY": false,
             "USABILITY": false,

@@ -2,66 +2,78 @@
   "styles": {
     "Colossal Chests": {
       "x": 10,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/colossal_chest"
     },
     "Refined Storage": {
       "x": 60,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/refined_storage"
     },
     "Applied Energistics": {
       "x": 60,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/applied_energistics"
     },
     "Drawers": {
       "x": 110,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/drawers"
     },
     "Mekanism QIO": {
       "x": 10,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mekanism_qio"
     },
-    "Belts": {
-      "x": 300,
-      "y": 0,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/belts"
-    },
-    "Pouches": {
+    "Stack Upgrading": {
       "x": 200,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/pouches"
+      "icon": "the_vault:gui/researches/stackupgrading"
+    },
+    "Auto Refill": {
+      "x": 250,
+      "y": -40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/autorefill"
+    },
+    "Auto Feeding": {
+      "x": 300,
+      "y": -40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/autofeeding"
     },
     "Double Pouches": {
-      "x": 250,
+      "x": 200,
       "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/double_pouches"
     },
+    "Belts": {
+      "x": 250,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/belts"
+    },
     "Backpacks": {
-      "x": 200,
-      "y": 40,
+      "x": 300,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/backpacks"
     },
     "Big Backpacks": {
-      "x": 250,
+      "x": 200,
       "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/big_backpacks"
     },
     "Junk Management": {
-      "x": 300,
+      "x": 250,
       "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_looter"
@@ -80,7 +92,7 @@
     },
     "Botania Flux Field": {
       "x": 490,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/botania_flux_field"
     },
@@ -137,6 +149,12 @@
       "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/rftools_utility"
+    },
+    "Altar Automation": {
+      "x": 490,
+      "y": 160,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/conduit"
     },
     "Building Gadgets": {
       "x": 10,
@@ -218,31 +236,31 @@
     },
     "Flux Networks": {
       "x": 490,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/flux_networks"
     },
     "Powah": {
       "x": 440,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/powah"
     },
     "Iron Generators": {
       "x": 390,
-      "y": 0,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/iron_generators"
     },
     "Thermal Dynamos": {
       "x": 390,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/thermal_dynamos"
     },
     "Mekanism Generators": {
       "x": 440,
-      "y": 40,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/mekanism_generators"
     },
@@ -287,12 +305,6 @@
       "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/brew"
-    },
-    "Altar Automation": {
-      "x": 490,
-      "y": 160,
-      "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/researches/conduit"
     }
   }
 }
